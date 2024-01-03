@@ -1,0 +1,124 @@
+.navbar {
+  z-index: 2;
+}
+.navLink {
+  border: 5px solid rgb(99, 180, 76) !important;
+  border-radius: 25px !important;
+}
+.navLink:hover {
+  background-color: rgb(99, 180, 76) !important;
+}
+.left:hover {
+  transition-timing-function: linear;
+  scale: 1.5;
+  overflow: hidden;
+  z-index: 1;
+
+  transform: translateX(100px);
+}
+
+.right:hover {
+  transition-timing-function: linear;
+  scale: 1.5;
+  overflow: hidden;
+
+  transform: translateX(-100px);
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 0;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-image: url("./Img/Dolci.png");
+  background-size: cover;
+  transition: all 0.7s;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-image: url("./Img/Caffe.jpg");
+  background-size: cover;
+  transition: scale 0.7s;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-self: center;
+}
+
+/* Reg page*/
+#registrationPage {
+  background-image: url(https://wallpapercave.com/wp/wp8744309.jpg);
+  background-position: center;
+  min-height: 75vh;
+  > .container {
+    display: flex;
+    align-items: center;
+  }
+}
+.pageContent {
+  /* max-width: 1296px; */
+  padding: 0 1.5em;
+  &.mainContent {
+    padding-top: 1.5em;
+  }
+  > .row {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  @media screen and (max-width: 575px) {
+    padding: 0;
+    > .row {
+      border-radius: 0;
+    }
+
+    &.mainContent {
+      padding-top: 0;
+    }
+  }
+  @media screen and (min-width: 1296px) {
+    padding: 0 5em;
+  }
+}
+
+.card {
+  border: 2px solid rgb(99, 180, 76) !important;
+  background-color: rgb(212, 230, 224) !important;
+}
+.btn {
+  border: 5px solid rgb(99, 180, 76) !important;
+  border-radius: 25px !important;
+  background-color: transparent !important;
+
+  -webkit-text-fill-color: rgb(86, 78, 78);
+  font-weight: 600 !important;
+}
+.btn:hover {
+  background-color: rgb(99, 180, 76) !important;
+}
+.col > p {
+  color: white;
+}
+
+#root {
+  background-image: url(https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200vh;
+}
+#carrelloPreRender {
+  color: green;
+  background-color: white;
+}
