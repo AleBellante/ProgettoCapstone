@@ -30,12 +30,8 @@ Eseguendo il login dal website con il nome scelto {esempio} + la password scelta
 
 Il tutto è gestito e salvabile in un database (es postgresql ) che permette la visione più dettagliata di ordini, utenti, clienti, fatture, situazione magazzino e info aggiuntive per la consegna. 
 l` autenticazione è il punto cruciale del progetto. senza di essa utilizzare la piattaforma è impossibile. questo permette un controllo sulla gestione del database sulla piattaforma. 
-Modificare prodotti e fatture per uno user è impossibile. Solo un admin ne è in grado
+Modificare prodotti e fatture per uno user è impossibile. Solo un admin ne è in grado.
 
-è molto lontano dall` essere un buon sito, per quanto mi sia impegnato nonostante il mese difficile appena affrontato.
-Vari problemi sono sorti durante il developing, ma ho imparato molto e soprattutto mi sono "divertito" per quanto si possa dire di un lavoro che cerca di prendersi il più sul serio possibile. 
-
-Continuerò a lavorare sulla performance e soprattutto sulla UI del sito, che lascia molto a desiderare, anche dopo la consegna del progetto (01/06/2023)
 
 Per maggiori informazioni potete contattarmi su linkedin @Alessandro Bellante
 
